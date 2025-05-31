@@ -5,6 +5,14 @@ const router = express.Router();
 router.get('/',(req,res)=>{
     res.json({message:"This is products page"})
 });
-module.export = router;
+
+router.get('/:productID',(req,res)=>{
+    console.log(req.params.productID);
+    const productID = req.params.productID;
+    res.json({message:`Displaying products ${productID}`})
+    
+})
+
+module.exports=router;
 
 

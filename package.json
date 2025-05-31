@@ -1,0 +1,16 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "To create node api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start":"node server.js"
+  },
+  "author": "Sushan Achar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
